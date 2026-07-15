@@ -4,7 +4,7 @@
 
 - 🔭 Currently building [**phonalign**](https://github.com/Dan16ssd/phonalign) — pip-installable audio-to-phoneme forced alignment for TTS datasets (English, Lao, ~100 languages)
 - 🤖 I like agents that **do real things** — gate deployments, cross-examine alerts, block vulnerable code
-- 🌱 SDG-focused builder at **MakerBox** — AI for recycling, smart cities, and Lao-language technology
+- 🌱 SDG-focused builder — AI for recycling, smart cities, and Lao-language technology
 - 📫 Reach me at **danny.ssd7@gmail.com**
 
 ---
