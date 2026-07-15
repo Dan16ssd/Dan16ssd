@@ -1,0 +1,13 @@
+<svg width="320" height="210" viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Most used languages">
+<style>
+.row{opacity:0;animation:fi .6s ease-out forwards}
+.title{opacity:0;animation:fi .6s ease-out forwards;animation-delay:.1s}
+.bar{opacity:0;animation:fi .8s ease-out forwards;animation-delay:.25s}
+@keyframes fi{to{opacity:1}}
+</style>
+<rect width="320" height="210" rx="8" fill="#1a1b27"/>
+<text class="title" x="25" y="40" font-size="18" font-weight="700" fill="#70a5fd" font-family="'Segoe UI', Ubuntu, Sans-Serif">Most Used Languages</text>
+<defs><clipPath id="bar"><rect x="25" y="58" width="270" height="10" rx="5"/></clipPath></defs>
+<g class="bar" clip-path="url(#bar)"><rect x="25.00" y="58" width="125.37" height="10" fill="#3572A5"/><rect x="150.37" y="58" width="79.30" height="10" fill="#f1e05a"/><rect x="229.67" y="58" width="31.54" height="10" fill="#e34c26"/><rect x="261.21" y="58" width="31.43" height="10" fill="#663399"/><rect x="292.64" y="58" width="1.60" height="10" fill="#89e051"/><rect x="294.24" y="58" width="0.76" height="10" fill="#384d54"/></g>
+<g class="row" style="animation-delay:400ms"><circle cx="30" cy="91" r="5" fill="#3572A5"/><text x="43" y="95" font-size="12.5" fill="#38bdae" font-family="'Segoe UI', Ubuntu, Sans-Serif">Python <tspan font-weight="700">46.4%</tspan></text></g><g class="row" style="animation-delay:500ms"><circle cx="30" cy="118" r="5" fill="#f1e05a"/><text x="43" y="122" font-size="12.5" fill="#38bdae" font-family="'Segoe UI', Ubuntu, Sans-Serif">JavaScript <tspan font-weight="700">29.4%</tspan></text></g><g class="row" style="animation-delay:600ms"><circle cx="30" cy="145" r="5" fill="#e34c26"/><text x="43" y="149" font-size="12.5" fill="#38bdae" font-family="'Segoe UI', Ubuntu, Sans-Serif">HTML <tspan font-weight="700">11.7%</tspan></text></g><g class="row" style="animation-delay:700ms"><circle cx="178" cy="91" r="5" fill="#663399"/><text x="191" y="95" font-size="12.5" fill="#38bdae" font-family="'Segoe UI', Ubuntu, Sans-Serif">CSS <tspan font-weight="700">11.6%</tspan></text></g><g class="row" style="animation-delay:800ms"><circle cx="178" cy="118" r="5" fill="#89e051"/><text x="191" y="122" font-size="12.5" fill="#38bdae" font-family="'Segoe UI', Ubuntu, Sans-Serif">Shell <tspan font-weight="700">0.6%</tspan></text></g><g class="row" style="animation-delay:900ms"><circle cx="178" cy="145" r="5" fill="#384d54"/><text x="191" y="149" font-size="12.5" fill="#38bdae" font-family="'Segoe UI', Ubuntu, Sans-Serif">Dockerfile <tspan font-weight="700">0.3%</tspan></text></g>
+</svg>
