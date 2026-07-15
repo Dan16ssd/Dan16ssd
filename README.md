@@ -13,7 +13,7 @@
 
 | | Project | What it does |
 |---|---|---|
-| 🛡️ | [**DeployGuard**](https://github.com/Dan16ssd/Deploy-Guard-Ai-Agents-) | Multi-agent CI/CD security gate — five specialist AI agents collaboratively review every pull request and **block vulnerable code before it ships**. Live webhook, real deployment gating. *Built for the Band of Agents Hackathon.* |
+| 🛡️ | [**DeployGuard**](https://github.com/Dan16ssd/deployguard) | Multi-agent CI/CD security gate — five specialist AI agents collaboratively review every pull request and **block vulnerable code before it ships**. Live webhook, real deployment gating. *Built for the Band of Agents Hackathon.* |
 | 🏛️ | [**DRIFT**](https://github.com/Dan16ssd/Drift-ForAMDHACKATHON) | Early-warning system for AI quality degradation — a **prosecutor, defense, and judge** cross-examine every drift alert with deterministic statistics before it fires. [**Live demo →**](https://makerbox-drift-court.hf.space/) *Built for the AMD MI300X hackathon.* |
 | ♻️ | [**SARA**](https://github.com/Dan16ssd/SARA-Waste-Identifier) | AI waste identifier and campus recycling intelligence — snap a photo, get material classification and disposal guidance; orgs get heatmaps, dashboards, and gamified engagement. [**Live app →**](https://sarascan.zeabur.app) |
 | 🗣️ | [**phonalign**](https://github.com/Dan16ssd/phonalign) | Audio-to-phoneme forced alignment for TTS dataset preprocessing — TextGrids, VITS filelists, exact duration arrays, and QA reports. English, Lao, and ~100 espeak languages with **zero system dependencies**. |
