@@ -1,0 +1,31 @@
+name: Update stats cards
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch GitHub stats
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api graphql -f query='{ user(login: "Dan16ssd") { repositories(first: 100, ownerAffiliations: OWNER, isFork: false) { nodes { name stargazerCount languages(first: 10) { edges { size node { name color } } } } } contributionsCollection { totalCommitContributions totalPullRequestContributions totalIssueContributions contributionCalendar { totalContributions } } pullRequests { totalCount } issues { totalCount } repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE]) { totalCount } } }' > ghdata.json
+
+      - name: Generate cards
+        run: python gencards.py
+
+      - name: Commit updated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.svg top-langs.svg
+          git diff --cached --quiet || { git commit -m "Update stats cards"; git push; }
