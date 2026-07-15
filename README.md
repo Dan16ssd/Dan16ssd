@@ -1,6 +1,6 @@
 # Hi, I'm Danny 👋
 
-**AI Engineer** from Vientiane, Laos 🇱🇦 — I build **multi-agent systems**, **AI-reliability tooling**, and **speech tech for low-resource languages**, and I ship them end-to-end: model → API → deployed product.
+**AI Engineer** from Vientiane, Laos 🌏 — I build **multi-agent systems**, **AI-reliability tooling**, and **speech tech for low-resource languages**, and I ship them end-to-end: model → API → deployed product.
 
 - 🔭 Currently building [**phonalign**](https://github.com/Dan16ssd/phonalign) — pip-installable audio-to-phoneme forced alignment for TTS datasets (English, Lao, ~100 languages)
 - 🤖 I like agents that **do real things** — gate deployments, cross-examine alerts, block vulnerable code
@@ -42,10 +42,10 @@
 ## 📊 GitHub Stats
 
 <p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Dan16ssd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dan16ssd&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages">
+  <img height="195" src="stats.svg" alt="GitHub stats">
+  <img height="195" src="top-langs.svg" alt="Top languages">
 </p>
 
 ---
 
-<p align="center"><i>Building AI that earns trust — from Vientiane to production. 🇱🇦</i></p>
+<p align="center"><i>Building AI that earns trust — from Vientiane to production. 🚀</i></p>
